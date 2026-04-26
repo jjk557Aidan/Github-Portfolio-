@@ -34,7 +34,6 @@ footer {
   color: white;
 }
 
-/* Responsive design */
 @media (max-width: 600px) {
   body {
     font-size: 14px;
@@ -44,4 +43,79 @@ footer {
     display: block;
     margin: 5px 0;
   }
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  line-height: 1.6;
+}
+
+.about-container h2 {
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  margin-bottom: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.contact-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+#response {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
 }
