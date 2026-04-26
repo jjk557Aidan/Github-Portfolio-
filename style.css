@@ -176,9 +176,11 @@ footer {
 }
 
 .about-images img {
-  width: 32%;
+  width: 33%;
   height: 180px;
   object-fit: cover;
+  object-position: center;
+
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
