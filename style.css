@@ -141,8 +141,8 @@ footer {
 
 
 .hero-img {
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   object-position: top;
   border-radius: 12px;
@@ -154,10 +154,16 @@ footer {
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 30px;
   }
 
   .hero-img {
-    width: 220px;
-    height: 220px;
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+  }
+
+  .hero-text {
+    padding: 0 10px;
   }
 }
